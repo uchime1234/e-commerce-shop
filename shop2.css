@@ -1,0 +1,278 @@
+* {
+    background-color:#ddd567;
+}
+
+.hold-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    column-gap: 1em;
+    position: absolute;  
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#excute {
+    color: #ffffffd7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+        background-color: #ddd567;
+        height: 30px;
+        width: 100px;
+        align-items: center;
+        justify-items: center;
+        position: relative;
+        border-radius: 15px;
+        position: relative;
+        top: 9.4vh;
+        right: 19vh;
+    border: none;
+    box-shadow: -8px -8px 15px rgba(209, 228, 99, 0.808),5px 5px 15px rgba(0,0,0, 0.1) ;
+    
+}
+
+.everything {
+    background-color: transparent;
+   width: 300px;
+   height: 600px;
+   z-index: 30;
+   position: fixed ;
+   left: 35%;
+   top: 70px;
+   
+}
+
+
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:#ddd5672a;
+    backdrop-filter: blur(4px);
+     border-top: 1px solid rgba(255,255,255, 0.4);
+     border-left: 1px solid rgba(255,255,255, 0.3);
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.089);
+    visibility :hidden;
+}
+.container {
+    background-color: white;
+    width: 230px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    left: 5px;
+    top: 5px;    
+
+}
+
+.covers {
+    background-color: transparent;
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+
+}
+
+
+.container video {
+position: relative;
+left: 15px;
+top: 10px;
+
+}
+.canva {
+    width: 495px;
+    height: 320px;
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px); /* the min max is teeling it that at it should be 120px minimum and at max, it should be auto , */
+    z-index: 20;
+    position: absolute;
+    top: 14vh;
+    left: -110px;
+    border-radius: 20px;
+    justify-content:space-around;
+     background-color: #ffffffd7;
+     visibility: hidden;
+}
+
+.containers {
+    background-color:#e0d96e;
+    height: 42px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: 50px;
+    right: 56px;
+    border-radius: 15px;
+}
+.containers i {
+
+    position: absolute;
+    left: 8px;
+    color: black;
+    background-color: #e0d96e;
+}
+
+
+.containers input {
+    position: relative;
+    left: 36px;
+    color: white;
+    background-color: #e0d96e;
+    border: none;
+   outline: none;
+
+}
+
+.containerss {
+    background-color:#e0d96e;
+    height: 42px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    bottom: 0px;
+    right: 56px;
+    border-radius: 15px;
+    outline: none;
+}
+.containerss i {
+
+    position: absolute;
+    left: 8px;
+    color: black;
+    background-color: #e0d96e;
+}
+
+
+.containerss input {
+    position: relative;
+    left: 36px;
+    color: white;
+    background-color: #e0d96e;
+    border: none;
+outline: none;
+}
+
+.fileput {
+width: 200px;
+height: 50px;
+position: relative;
+bottom: 20px;
+left: 11vh;
+
+}
+
+.product {
+    position: relative;
+    left: 75px;
+    bottom: 16.8vh;
+    background-color: transparent;
+    text-decoration:underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price {
+    position: relative;
+    left: 58px;
+    bottom: 19.4vh;
+    background-color: transparent;
+    text-decoration:underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.whatsapp {
+    position: relative;
+    left: 106px;
+    bottom: 21.7vh;
+    background-color: transparent;
+    text-decoration:underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.company {
+    position: relative;
+    left: 85px;
+    bottom: 24vh;
+    background-color: transparent;
+    text-decoration:underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.videoinput {
+    z-index: 20;
+    width: 200px;
+}
+
+
+.sales {
+
+    z-index: 20;
+background-color: white;
+width:  50px;
+height: 50px;
+border-radius: 50%;
+position: absolute;
+top: 76vh;
+left: 14vh;
+justify-content: center;
+align-items: center;
+align-content: center;
+place-items: center;
+}
+
+.sales i {
+    color:#e0d96e;
+    background-color: transparent;
+    font-size: xx-large;
+    position: absolute;
+    left:1.6vh ;
+    bottom: 1.2vh;
+
+
+}
+
+#excute:active {
+    transform: scale(0.80);
+}
+
+.sales:active {
+    transform: scale(0.80);
+}
+
+.sales i:hover {
+    transform: rotate(45deg);
+}
+
+#cancel {
+
+    width: 30px;
+    height: 30px;
+  background-color:#e0d96e;
+   z-index: 100;
+   border: none;
+   color:white;
+   position: relative;
+   border-radius: 4px;
+   bottom: 312px;
+   left: 380px;  
+}
+
+#cancel:active {
+    transform: scale(0.80);
+}
+
+.earth {
+    z-index: 50;
+}
